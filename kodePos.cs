@@ -27,11 +27,5 @@ namespace tpmodul4__103022300071
             return kodePosTable[(int)kelurahan];
         }
 
-        public static void Main(string[] args)
-        {
-            Console.WriteLine("Kode Pos Batununggal: " + GetKodePos(Kelurahan.Batununggal));
-            Console.WriteLine("Kode Pos Kujangsari: " + GetKodePos(Kelurahan.Kujangsari));
-            Console.WriteLine("Kode Pos Mengger: " + GetKodePos(Kelurahan.Mengger));
-        }
     }
 }
